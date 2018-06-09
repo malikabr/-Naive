@@ -169,6 +169,13 @@ print(fp1)
 
 #print("precision is :",(tp1/(tp1+fp1)))
 
+print("recall1 is :",(tp1/(tp1+tp2)))
+print("recall2 is :",(tp2/(tp1+tp2)))
+print("precision1 is :",(tp1/(tp1+fp1)))
+print("precision2 is :",(tp2/(tp2+fp2)))
+
+
+
 
 
 """
