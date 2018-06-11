@@ -139,19 +139,19 @@ for line in f:
     if (p1<p2):
         #print("class2")
         cnttemp2 +=1
-        if real =="1" :
-            tp1+=1
+        if real =="2" :
+            tp2+=1
         else:
-            fp1+=1
+            fp2+=1
 
     elif(p1==p2):print("it is equal")
     else:
         #print("class1")
         cnttemp1 +=1
-        if real =="2" :
-            tp2+=1
+        if real =="1" :
+            tp1+=1
         else:
-            fp2+=1
+            fp1+=1
 
 
 
